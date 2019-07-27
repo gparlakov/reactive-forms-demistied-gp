@@ -1,0 +1,9 @@
+
+<textarea type="text" 
+  [formControl]="tweet" 
+  [ngStyle]="{'outline-color': highlightInvalid(tweet), 'border-color': highlightInvalid(tweet)}" 
+  cols="40" rows="8" 
+  placeholder="What's going on...">
+</textarea>
+<br class="{{changes$ | async}}"/>
+<p class="counter">{{ lengthRemaining$ | async}}</p>

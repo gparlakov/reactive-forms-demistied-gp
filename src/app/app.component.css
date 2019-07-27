@@ -1,0 +1,9 @@
+:host {
+  font-family: Lato;
+  display: inline-block;
+}
+
+p.counter {
+  margin-top:0;
+  text-align: right;
+}
